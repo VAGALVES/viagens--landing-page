@@ -1,0 +1,94 @@
+/* Configurações globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+nav {
+    background-color: #333;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #ff6600;
+}
+
+/* Estilo do banner */
+.banner {
+    background-image: url('https://passaportefeliz.com.br/wp-content/uploads/2022/07/genebra-01-1140x730.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    position: relative;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.banner h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.banner p {
+    font-size: 18px;
+    margin: 10px 0 0;
+}
+
+/* Estilo das seções */
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 36px;
+    color: #333;
+}
+
+section p {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
