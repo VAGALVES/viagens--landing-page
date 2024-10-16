@@ -1,85 +1,42 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Banner de Viagem</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
-        #banner {
-            background-image: url('https://passaportefeliz.com.br/wp-content/uploads/2022/07/genebra-01-1140x730.jpg');
-            background-size: cover;
-            background-position: center;
-            height: 500px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: white;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-        }
-        h1 {
-            font-size: 3em;
-        }
-        nav {
-            background-color: #333;
-            padding: 10px;
-            text-align: center;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            font-size: 1.2em;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-        section {
-            padding: 20px;
-            text-align: center;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px;
-        }
-    </style>
+    <title>Viagens - Landing Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <nav>
-        <a href="#tripme">TripMe</a>
-        <a href="#meetus">MeetUs</a>
-        <a href="#advice">Advice</a>
+        <ul>
+            <li><a href="#tripme">TripMe</a></li>
+            <li><a href="#meetus">MeetUs</a></li>
+            <li><a href="#advice">Advice</a></li>
+        </ul>
     </nav>
 
     <main>
-        <div id="banner">
-            <h1>Descubra Genebra</h1>
-        </div>
-
-        <section id="tripme">
-            <h2>TripMe</h2>
-            <p>Explore as maravilhas de Genebra, Suíça, uma cidade rica em história, cultura e paisagens incríveis.</p>
+        <section id="tripme" class="banner">
+            <div class="overlay">
+                <h1>Explore o Mundo com TripMe</h1>
+                <p>Descubra destinos incríveis ao redor do mundo!</p>
+            </div>
         </section>
 
         <section id="meetus">
-            <h2>MeetUs</h2>
-            <p>Conheça nosso time de especialistas em viagens e descubra as melhores dicas para planejar sua viagem dos sonhos.</p>
+            <h2>Meet Us</h2>
+            <p>Conheça nossa equipe dedicada e pronta para tornar sua viagem inesquecível.</p>
         </section>
 
         <section id="advice">
             <h2>Advice</h2>
-            <p>Veja nossos conselhos sobre os melhores lugares para visitar, comer e se hospedar durante sua estadia em Genebra.</p>
+            <p>Aqui você encontra os melhores conselhos para garantir uma viagem tranquila e sem preocupações.</p>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 Viagens Pelo Mundo</p>
+        <p>&copy; 2024 TripMe - Todos os direitos reservados</p>
     </footer>
-
 </body>
 </html>
+
